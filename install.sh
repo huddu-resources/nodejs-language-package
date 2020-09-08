@@ -1,4 +1,4 @@
 #!/bin/bash
 
 apt update
-apt install nodejs
+yes | apt install nodejs
