@@ -1,3 +1,3 @@
 #!/bin/bash
 
-apt remove nodejs
+yes | apt remove nodejs
