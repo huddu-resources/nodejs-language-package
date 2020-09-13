@@ -1,4 +1,6 @@
 #!/bin/bash
 
+echo "==> apt update"
 apt update
-yes | apt install nodejs
+echo "==> apt install nodejs npm"
+yes | apt install nodejs npm
